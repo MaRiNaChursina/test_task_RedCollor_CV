@@ -1,0 +1,170 @@
+﻿@import 'nullstyle.css';
+@font-face {
+    font-family: "Redcollar";
+    src: url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.eot");
+    src: url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/f02cf2e6e27a17bcfe9efa18c041c208.svg#Redcollar") format("svg"); 
+}
+@font-face {
+    font-family: TT Commons;
+    src: url("./fonts/TT\ Commons\ Regular.otf") format("opentype");
+}
+
+    
+body{
+    background-color: black;
+    color: #ffffff;
+}
+.logo{
+    position: absolute;
+   right: 40px;
+   left: auto;
+   top:26px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: minmax(80vh, auto);
+    column-gap: 32px;
+    margin: 40px;
+}
+
+.about {
+    width: 322px;
+    grid-column: 1 / 4;
+   
+}
+
+.about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.about__svg{
+    position: absolute;
+    top:368px;
+    left: 171px;
+}
+
+.about__text {
+    position: absolute;
+    background-color: #F51B1B;
+    width: 322px;
+    height: 454px;
+    border-radius: 24px 24px 0px 0px;
+    font-size: 20px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    padding: 40px 24px;
+    margin-top: -29px;
+    
+}
+
+.about__text img{
+    float: left;
+}
+
+.about__header{
+    font-size: 24px;
+    font-family: 'Redcollar';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+}
+
+.connection__text{
+    padding: 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 255px;
+    
+}
+
+.connection__text a,.connection__text p{
+    padding-left: 16px;
+    width: 215px;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+
+
+
+.connection__text p,img{
+    padding-bottom: 20px;
+}
+
+.info {
+    margin-top: 18px;
+    border: 1px solid rgb(45, 0, 128);
+    height: 100px;
+    grid-column: 4 / 13;
+    font-size: 18px;
+    font-family: TT Commons;
+}
+.info__text {
+    width: 690px;
+    font-size: 18px;
+    font-family: TT Commons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+}
+.info__text a{ 
+    color: #F51B1B;
+}
+
+.info__text ol{
+    margin-left: 20px;
+}
+.info__cv {
+    margin-top: 33px;
+}
+.info__frame {
+}
+.info__cv-text {
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 27px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info__one {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 1px solid #ffffff65;
+    padding: 20px 0px;
+}
+.info__one h3{
+    padding-right: 72px;
+    font-size: 16px;
+    font-family: Redcollar;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.info__two {
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+}
+.info__two p{
+    opacity: 0.4000000059604645;
+}
+.info__three{
+   display: flex;
+}
+.info__three p{
+    padding-right: 32px;
+}
