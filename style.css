@@ -104,7 +104,6 @@ main{
 
 .info {
     margin-top: 18px;
-    border: 1px solid rgb(45, 0, 128);
     height: 100px;
     grid-column: 4 / 13;
     font-size: 18px;
@@ -133,7 +132,8 @@ main{
 }
 .info__cv-text {
     position: absolute;
-    margin-top: -470px;
+    top:450px;
+    max-width: 950px;
     margin-left: 27px;
     display: flex;
     flex-direction: column;
