@@ -24,7 +24,7 @@ body{
     left: auto;
     top:26px;
 }
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .logo{
         position: absolute;
         left: 20px;
@@ -40,7 +40,7 @@ main{
     margin: 40px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     main{
         display: flex;
         flex-direction: column;
@@ -54,7 +54,7 @@ main{
    
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .about {
         margin-top: 90px;
     }
@@ -73,7 +73,7 @@ main{
     left: 171px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .about__svg{
         position: absolute;
         top:395px;
@@ -97,7 +97,7 @@ main{
     margin-top: -29px;  
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .about__text{
         top:442.4px;
         height: 288px;
@@ -126,7 +126,7 @@ main{
     width: 255px;
     margin-left: -10px;
 }
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .connection__text{
         padding: 32px 0px;
         margin-left: 0px;
@@ -139,7 +139,7 @@ main{
     word-wrap: break-word;
     color: #ffffff;
 }
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .connection__text a,.connection__text p{
         width: 265px;
         word-wrap: break-word;
@@ -159,7 +159,7 @@ main{
     font-family: TT Commons;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .info{
         margin-top: 280px;
     }
@@ -175,7 +175,7 @@ main{
     letter-spacing: -0.18px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1100px) {
     .info__text{
         width: 320px;
     }
@@ -201,10 +201,28 @@ main{
     
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .info__cv-text{
         top:1330px;
         width: 288px;
+        margin-left: 15px;
+    }
+
+}
+
+@media ((min-width:601px) and (max-width: 900px)) {
+    .info__cv-text{
+        top:630px;
+        width: 288px;
+        margin-left: 15px;
+    }
+
+}
+
+@media ((min-width:901px) and (max-width: 1100px)) {
+    .info__cv-text{
+        top:630px;
+        width: 500px;
         margin-left: 15px;
     }
 
@@ -214,7 +232,7 @@ main{
     display: none;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     .info__frame{
         display: none;
     }
@@ -228,6 +246,20 @@ main{
     }
 }
 
+@media ((min-width:601px) and (max-width: 900px)) {
+    .info__frame{
+        display: none;
+    }
+    .info__frame1, .info__frame2{
+        display: block;
+    }
+    .info__frame2{
+        position: absolute;
+        left: 500px;
+        right: auto;
+    }
+}
+
 .info__one {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -235,7 +267,7 @@ main{
     padding: 20px 0px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 900px) {
     .info__one{
         display: block;
     }
@@ -256,7 +288,7 @@ main{
     letter-spacing: -0.18px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 900px) {
     .info__two{
         margin-top: 16px;
     }
@@ -275,7 +307,7 @@ main{
     letter-spacing: -0.16px;
     }
 
-@media (max-width: 360px) {
+@media (max-width: 900px) {
     .info__three{
         margin-top: 16px;
       
